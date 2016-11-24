@@ -1,17 +1,28 @@
-<!doctype html>
-<html>
-    <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
-        </div>
-        <br>
-        <div class="center text-big bold">
-            
-        </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
-    </body>
+<%@ Page Language="VB" AutoEventWireup="false" CodeFile="LoginPage.aspx.vb" Inherits="LoginPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+    
+        <asp:Label ID="Label1" runat="server" Text="User ID"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Label ID="Label2" runat="server" Text="Password"></asp:Label>
+&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <br />
+        <br />
+        <asp:Button ID="Button1" runat="server" Text="Login" />
+    
+    </div>
+    </form>
+</body>
 </html>
